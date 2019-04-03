@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week4</title>
+	<style type="text/css">
+*	{cursor:url(cursor.png), default;
+		}
+	body{
+			background-color: beige;
+		}	
+	
+		.header{
+			color: burlywood;
+			font-size: 90px;
+			font-family: helvetica;
+			margin:50px;
+		}
+		.box1 {
+			height:150px;
+			width:500px;
+			margin-top:70px;
+			background-color: white;
+			font-size: 30px;
+			font-family: courier;
+			color: darkolivegreen;
+			padding:30px;
+			transition:transform 300ms ease-in-out;
+
+		}
+		.box1:hover{
+			transform: translate(300px, 200px) rotate(20deg);
+		}
+		.box2 {
+			height:150px;
+			width:500px;
+			margin-top:70px;
+			margin-left:200px;
+			background-color: white;
+			font-size: 30px;
+			font-family: courier;
+			color: darkolivegreen;
+			padding:30px;
+			transition:transform 300ms ease-in-out;
+
+		}
+		.box2:hover{
+			transform: translate(300px, 200px) rotate(20deg);
+		}
+
+		.exh{
+  			font-size:80px;
+  			font-family:georgia;
+  			color:sienna;
+  			margin:50px;
+  		}
+		.box3 {
+			  width: 800px;
+			  height:200px;
+			  padding:50px;
+			  background-color: pink;
+			  /*   add your animation name and settings here */
+			  animation-name:spinUG;
+			  animation-duration:4000ms;
+			  animation-iteration-count: infinite;
+			  animation-timing-function: linear;
+			  animation-direction: alternate;
+
+			  color:beige;
+			  font-size: 40px
+			  padding:50px;
+			  font-family:helvetica;
+			  text-align: center;
+			}
+
+			/*   add your starting state and your end state  */
+			@keyframes spinUG {
+			  
+			  from {
+			    width:10px;
+			  }
+			  
+			  to {
+			    width:1200px;
+			  }
+
+
+  		}
+  
+
+
+	
+}
+	</style>
+</head>
+
+
+<body>
+	<div class="header">
+THOUGHTS OF A DOG
+
+
+
+
+</body>
+	
+	
+	<div class="box1">
+		<img src="leaf.jpg">
+		I was outside. Minding my own business, when a leaf fell on my noggin. 
+	</div>
+	<div class="box2">
+		I will consider it my crown. And I will rule these lands benevolently
+	</div>	
+	<br>
+	<div class="exh">
+		Im exhausted.<br> And it its okay with you.<br> I'd like to redeem. <br>This all inclusive ticket to:
+	</div>
+
+	<div class=box3>
+		SNOOZE CITY
+	</div>
+</html>
