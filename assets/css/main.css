@@ -3,9 +3,9 @@ body {
 	font-size: 32px;
 }
 
-* {
+/** {
 	outline: 1px solid red;
-}
+}*/
 
 a {
 	color:#000;
@@ -151,25 +151,58 @@ img {
 	width:400px
 }
 .image-container12 {
-	
+	right:10px;
+	top:450px;
+	height:100px;
+	width:450px;
 }
 
 .image-container13 {
-	
+	left:200px;
+	top:0px;
+	height:300px;
+	width:350px;
 }
 
 .image-container14 {
-	
+	left:220px;
+	top:170px;
+	height:300px;
+	width:80px;
 }
 
 .image-container15 {
-	
+	left:100px;
+	top:100px;
+	height:800px;
+	width:300px;
 }
 .image-container16 {
-	
+	left:550px;
+	top:100px;
+	height:800px;
+	width:300px;
 }
 
 .image-container17 {
-	
+	top:100px;
+	right:100px;
+	height:800px;
+	width:300px;
+}
+
+.grid{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	padding:20px;
+
+}
+.content{
+	padding:20px;
+}
+.w-1of2{
+	flex:0 0 50%;
 }
 

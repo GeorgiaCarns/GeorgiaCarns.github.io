@@ -66,11 +66,11 @@ setTimeout(function(){
 
 setTimeout(function(){
     $('.image-container13').addClass('active')
-},4600);
+},4800);
 
 setTimeout(function(){
     $('.image-container14').addClass('active')
-},4900);
+},5000);
 
 setTimeout(function(){
     $('.image-container15').addClass('active')
