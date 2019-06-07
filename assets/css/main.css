@@ -1,0 +1,153 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+* {
+	outline: 1px solid red;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+img {
+	width:100%;
+	display: block;
+}
+
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.interaction .content {
+	box-shadow: 10px 10px 10px gray;
+	background-color: lightgray;
+}
+
+.contents {
+	height:100vh;
+	width: 50vw;
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: yellow;
+	margin-left: -50vw;
+	transition: 0.2s;
+
+}
+
+.nasty {
+	text-align: center;
+}
+
+.contents.left {
+	margin-left: 0;
+	transition: 0.2s;
+}
+
+.nav-contents {
+	cursor: pointer;
+	color:red;
+}
+
+.close {
+	cursor: pointer;
+}
+
+.toggle {
+	margin-bottom: 200px;
+	border-bottom: 10px solid #000; 
+}
+
+.toggle-title {
+	cursor: pointer;
+	width:100%;
+	color:red;
+}
+
+.toggle-content {
+	display: none;
+}
+
+.ic {
+	position: absolute;
+	width:600px;
+	display: none;
+	pointer-events:none;
+}
+
+.ic.active {
+	display: block;
+}
+
+.image-container1 {
+	top:20px;
+	left:500px;
+}
+
+.image-container2 {
+	top:500px;
+	right:500px;
+}
+
+.image-container3 {
+	right:300px;
+	bottom:500px;
+}
+
+.image-container4 {
+	
+}
+
+.image-container5 {
+	
+}
+.image-container6 {
+	
+}
+
+.image-container7 {
+
+}
+
+.image-container8 {
+	
+}
+
+.image-container9 {
+	
+}
+
+.image-container10 {
+	
+}
+
+.image-container11 {
+	
+}
+.image-container12 {
+	
+}
+
+.image-container13 {
+	
+}
+
+.image-container14 {
+	
+}
+
+.image-container15 {
+	
+}
+.image-container16 {
+	
+}
+
+.image-container17 {
+	
+}
+
