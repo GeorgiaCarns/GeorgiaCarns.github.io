@@ -17,9 +17,15 @@ img {
 	display: block;
 }
 
+.box{
+	height:700px;
+	width:1450px;
+}
+
 .title {
-	font-size: 24vw;
+	font-size: 100px;
 	text-align: center;
+	margin-top:100px;
 }
 
 .interaction .content {
@@ -29,12 +35,12 @@ img {
 
 .contents {
 	height:100vh;
-	width: 50vw;
+	width: 30vw;
 	position: fixed;
 	top:0;
 	left:0;
 	background-color: yellow;
-	margin-left: -50vw;
+	margin-left: -30vw;
 	transition: 0.2s;
 
 }
@@ -74,7 +80,6 @@ img {
 
 .ic {
 	position: absolute;
-	width:600px;
 	display: none;
 	pointer-events:none;
 }
@@ -84,49 +89,66 @@ img {
 }
 
 .image-container1 {
-	top:20px;
-	left:500px;
+	top:50px;
+	left:700px;
 }
 
 .image-container2 {
-	top:500px;
-	right:500px;
+	top:300px;
+	right:700px;
 }
 
 .image-container3 {
-	right:300px;
-	bottom:500px;
+	right:200px;
+	bottom:50px;
 }
 
 .image-container4 {
-	
+	right:100px;
+	top:250px;
 }
 
 .image-container5 {
-	
+	left:20px;
+	top:30px;
+	height:1000px;
+	width:1000px;
 }
 .image-container6 {
-	
+	left:70px;
+	bottom:50px;
+	width:700px;
+
 }
 
 .image-container7 {
-
+	left:400px;
+	top:130px;
 }
 
 .image-container8 {
-	
+	left:800px;
+	bottom:10px;
+	width:400px;
 }
 
 .image-container9 {
-	
+	right:70px;
+	top:130px;
+	width:100px
 }
 
 .image-container10 {
-	
+	left:70px;
+	top:130px;
+	height:100px;
+	width:100px;
 }
 
 .image-container11 {
-	
+	right:200px;
+	top:100px;
+	width:400px
 }
 .image-container12 {
 	
