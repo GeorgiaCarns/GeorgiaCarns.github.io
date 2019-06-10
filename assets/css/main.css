@@ -1,6 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color: white;
 }
 
 /** {
@@ -8,13 +9,14 @@ body {
 }*/
 
 a {
-	color:#000;
+	
 	text-decoration: none;
 }
 
 img {
 	width:100%;
 	display: block;
+	transform-style: 
 }
 
 .box{
@@ -22,10 +24,10 @@ img {
 	width:1450px;
 }
 
-.title {
+.header {
 	font-size: 100px;
 	text-align: center;
-	margin-top:100px;
+	margin-top:150px;
 }
 
 .interaction .content {
@@ -47,6 +49,7 @@ img {
 
 .nasty {
 	text-align: center;
+	margin-top:10px;
 }
 
 .contents.left {
@@ -56,27 +59,14 @@ img {
 
 .nav-contents {
 	cursor: pointer;
-	color:red;
+	color:black;
 }
 
 .close {
 	cursor: pointer;
 }
 
-.toggle {
-	margin-bottom: 200px;
-	border-bottom: 10px solid #000; 
-}
 
-.toggle-title {
-	cursor: pointer;
-	width:100%;
-	color:blue;
-}
-
-.toggle-content {
-	display: none;
-}
 
 .ic {
 	position: absolute;
@@ -88,9 +78,41 @@ img {
 	display: block;
 }
 
+.typewriter{
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid orange; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	letter-spacing: .15em; /* Adjust as needed */
+  	animation: 
+    typing 4s steps(70, end),
+    blink-caret 0s step-end infinite;
+    font-size: 100px;
+    font:courier;
+    margin-left: 40px;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
+
+
+
+
+
+
 .image-container1 {
 	top:50px;
 	left:700px;
+	background-attachment: fixed;
 }
 
 .image-container2 {
@@ -133,7 +155,7 @@ img {
 }
 
 .image-container9 {
-	right:70px;
+	right:40px;
 	top:130px;
 	width:100px
 }
@@ -189,20 +211,88 @@ img {
 	right:100px;
 	height:800px;
 	width:300px;
+	
+
 }
+
+
+
+
 
 .grid{
 	display:flex;
 	flex-wrap:wrap;
+	border-color: red;
 }
 .col{
 	padding:20px;
 
 }
 .content{
-	padding:20px;
+	padding:0px;
+	font-size: 50px;
 }
 .w-1of2{
 	flex:0 0 50%;
+	border-color: red;
 }
+
+.w-2of2{
+	flex:0 0 50%;
+	border-color: red;
+}
+
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.toggle-title {
+	border-top:3px solid #000;
+	cursor: pointer;
+}
+
+.toggle-content {
+	display: none;
+	animation:;
+
+}
+.button{
+	position: fixed;
+	text-align:center;
+	margin-left:670px;
+	margin-top:770px;
+	height:90px;
+	width:270px;
+	background-color: yellow;
+	border:1px solid red;
+	padding:5px;
+}
+
+
+.links{
+	font-size: 250px;
+	text-align: center;
+	font-family: sans-serif;
+	margin:70px;
+	
+	position:fixed;
+	border-color: 1px solid red;
+	
+
+	}
+a{
+	color:black;
+	font-size: 70px
+	font-family:serif;
+	text-decoration: none;
+	border-bottom:5px black;
+	}
+
+a:hover {
+	color: red;
+	border-bottom:10px red;
+	}
+
+
 
