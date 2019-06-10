@@ -47,9 +47,14 @@ img {
 
 }
 
+.openpage{
+	width:100%;
+	background-color:;
+}
+
 .nasty {
 	text-align: center;
-	margin-top:10px;
+	margin-top:20px;
 }
 
 .contents.left {
@@ -59,7 +64,13 @@ img {
 
 .nav-contents {
 	cursor: pointer;
-	color:black;
+	color:white;
+	font-family: monospace;
+	position:fixed;
+	margin-left: 20px;
+	height:130px;
+	width:220px;
+	background-color: black;
 }
 
 .close {
@@ -78,18 +89,45 @@ img {
 	display: block;
 }
 
+.walk{
+	width:100%;
+	height:150px;
+	background-color: red;
+	margin-top:400px;
+	font:courier 50px;
+}
+
 .typewriter{
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
   	border-right: .15em solid orange; /* The typwriter cursor */
   	white-space: nowrap; /* Keeps the content on a single line */
   	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  	letter-spacing: .15em; /* Adjust as needed */
+  	letter-spacing: .20em; /* Adjust as needed */
   	animation: 
     typing 4s steps(70, end),
     blink-caret 0s step-end infinite;
     font-size: 100px;
     font:courier;
     margin-left: 40px;
+    color:white;
+    padding-top:20px;
+}
+
+.typewriter2{
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid orange; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	letter-spacing: .20em; /* Adjust as needed */
+  	animation: 
+    typing 4s steps(70, end),
+    blink-caret 0s step-end infinite;
+    font-size: 100px;
+    font:courier;
+    margin-left: 40px;
+    color:black;
+    padding-top:20px;
+    padding-left:400px;
 }
 
 
@@ -117,7 +155,7 @@ img {
 
 .image-container2 {
 	top:300px;
-	right:700px;
+	right:500px;
 }
 
 .image-container3 {
@@ -131,27 +169,27 @@ img {
 }
 
 .image-container5 {
-	left:20px;
-	top:30px;
+	left:400px;
+	top:70px;
 	height:1000px;
 	width:1000px;
 }
 .image-container6 {
 	left:70px;
-	bottom:50px;
-	width:700px;
+	bottom:150px;
+	width:600px;
 
 }
 
 .image-container7 {
-	left:400px;
+	left:200px;
 	top:130px;
 }
 
 .image-container8 {
-	left:800px;
-	bottom:10px;
-	width:400px;
+	left:900px;
+	top:650px;
+	width:800px;
 }
 
 .image-container9 {
@@ -164,7 +202,7 @@ img {
 	left:70px;
 	top:130px;
 	height:100px;
-	width:100px;
+	width:500px;
 }
 
 .image-container11 {
@@ -181,41 +219,44 @@ img {
 
 .image-container13 {
 	left:200px;
-	top:0px;
+	top:100px;
 	height:300px;
 	width:350px;
 }
 
 .image-container14 {
-	left:220px;
+	left:120px;
 	top:170px;
 	height:300px;
-	width:80px;
+	width:110px;
 }
 
 .image-container15 {
-	left:100px;
-	top:100px;
+	left:400px;
+	top:200px;
 	height:800px;
 	width:300px;
 }
 .image-container16 {
-	left:550px;
-	top:100px;
+	right:800px;
+	top:200px;
 	height:800px;
 	width:300px;
 }
 
 .image-container17 {
-	top:100px;
-	right:100px;
+	position:;
+	top:200px;
+	right:400px;
 	height:800px;
 	width:300px;
 	
 
 }
 
-
+.nav-contents{
+	margin-top:10px;
+}
 
 
 
@@ -229,18 +270,41 @@ img {
 
 }
 .content{
-	padding:0px;
-	font-size: 50px;
+	padding:20px;
+	font-size: 40px;
+
+}
+
+.text{
+	font-size:30px;
+	font:serif;
+	color:red;
+	padding:20px;
+	border-color: pink;
+	width:100%;
+	height:200px;
+	background-color: ;
+	border:5px solid #FF33A5;
+
 }
 .w-1of2{
 	flex:0 0 50%;
 	border-color: red;
+	background-color: grey;
 }
 
 .w-2of2{
 	flex:0 0 50%;
 	border-color: red;
 }
+
+.w-1of3{
+	flex:0 0 29%;
+	border-color: red;
+	background-color: ;
+}
+
+
 
 .title {
 	font-size: 24vw;
@@ -293,6 +357,7 @@ a:hover {
 	color: red;
 	border-bottom:10px red;
 	}
+
 
 
 
