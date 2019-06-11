@@ -288,15 +288,17 @@ img {
 
 }
 .w-1of2{
-	flex:0 0 50%;
+	flex:0 0 49%;
 	border-color: red;
 	background-color: grey;
+	border: 2px solid black;
+	width:100%;
+	height:800px;
+}
+.grid{
+	border:;
 }
 
-.w-2of2{
-	flex:0 0 50%;
-	border-color: red;
-}
 
 .w-1of3{
 	flex:0 0 29%;
