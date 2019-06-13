@@ -84,6 +84,21 @@ setTimeout(function(){
     $('.image-container17').addClass('active')
 },6500);
 
+setTimeout(function(){
+    $('.image-container18').addClass('active')
+},4000);
+
+setTimeout(function(){
+    $('.image-container19').addClass('active')
+},5000);
+
+setTimeout(function(){
+    $('.image-container20').addClass('active')
+},6000);
+
+setTimeout(function(){
+    $('.image-container21').addClass('active')
+},8000);
 
     
 
@@ -98,6 +113,12 @@ $( ".title-2" ).click(function() {
 $( ".title-3" ).click(function() {
   $( ".toggle-3" ).slideToggle( "slow" );
 });
+
+$( ".title-4" ).click(function() {
+  $( ".toggle-4" ).slideToggle( "slow" );
+});
+
+
 
 
 
