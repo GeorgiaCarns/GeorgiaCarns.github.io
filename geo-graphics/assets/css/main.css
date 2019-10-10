@@ -152,8 +152,76 @@ a {
 	text-align:center;
 }
 
+/*phone passcode*/
+
+.phone-container{
+	width:100vw;
+	height:100vw;
+	display:flex;
+/*	align-items:center;*/
+	justify-content:center;
+	margin-top:100px;
+	
 
 
+}
 
+.phone{
+ 	width:50vh;
+	height:80vh;
+/*	align-items:center;*/
+	border-radius: 30px;
+	justify-content: center;
+	display: flex;
+	border:1px solid grey;
+	background-color: grey;
+	background-image:100%; 
+	padding-top:3vw;
+	background-image: url(background/blurr.jpg);
+	background-size: cover;
+
+}
+
+.button-container{
+	width:40vw;
+	height:35vw;
+	display:flex;
+	margin-top:30px;
+	flex-wrap: wrap;
+	padding-top:10px;
+	justify-content:center;
+	
+	
+
+}
+
+.button{
+	width:7vw;
+	height:7vw;
+	border-radius:100%;
+	color:snow;
+	border:1px solid white;
+	text-align:center;
+	padding-top:2.5vw;
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:10px;
+
+
+}
+
+.phone-text{
+	font-family: helvetica;
+	font-size: 15px;
+	width:100%;
+	text-align: center;
+	margin-bottom:40px;
+
+
+}
+
+img{
+	width:;
+}
 
 
