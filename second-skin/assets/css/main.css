@@ -21,8 +21,8 @@ a {
 	z-index: 9;
 	text-align:center;
 	top:0px;
-	left:350px;
-	width:700px;
+	
+	width:100%;
 
 
 
@@ -30,9 +30,9 @@ a {
 
 .nav-item{
 	display:inline-block;
-	border:5px solid lightyellow;
+	/*border:5px solid lightyellow;*/
 	padding:20px;
-	border-radius:5px;
+	/*border-radius:5px;*/
 	/*padding-left:10%;*/
 	cursor: pointer;
 }
