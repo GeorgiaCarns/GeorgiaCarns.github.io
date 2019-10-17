@@ -180,7 +180,7 @@ a {
 	justify-content: center;
 	display: flex;
 	border:1px solid grey;
-	background-color: grey;
+	background-color: red;
 	background-image:100%; 
 	padding-top:3vw;
 	background-image: url(background/blurr.jpg);
@@ -196,6 +196,7 @@ a {
 	flex-wrap: wrap;
 	padding-top:10px;
 	justify-content:center;
+
 	
 	
 
@@ -222,6 +223,7 @@ a {
 	width:100%;
 	text-align: center;
 	margin-bottom:40px;
+	
 
 
 }
