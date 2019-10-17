@@ -12,9 +12,10 @@ a {
 /*index homepage*/
 
 .index-intro{
-	font-size:18px;
+	font-size:40px;
 	margin-bottom:25vh;
 	text-align:center;
+	margin-top:50px;
 }
 
 .index-row{
@@ -226,7 +227,7 @@ a {
 }
 
 img{
-	width:;
+	width:100%;
 }
 
 /*employee*/
@@ -252,6 +253,29 @@ img{
 .employ-images img{
 	width:100%;
 }
+
+
+/*tap myki*/
+
+.tap{
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	position:fixed;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
