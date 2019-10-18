@@ -27,7 +27,8 @@ a {
 
 .country-title{
 	font-size:60px;
-	font-family: helvetica bold;
+	font-family: helvetica, arial;
+	font-weight: bold;
 	margin-left:70px;
 }
 
@@ -43,13 +44,11 @@ a {
 
 .thumbnail-content {
 	padding: 1px;
+	position: relative;
 }
 
 .thumbnail img {
 	width:100%;
-	position: relative;
-  	
-
 }
 
 .title{
@@ -74,6 +73,8 @@ img{
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  height: 250px;
+  object-fit: cover;
 
 
 }
