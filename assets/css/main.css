@@ -1,146 +1,126 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
-	background-color: white;
+	font-family: courier;
+	font-size: 24px;
+	background-color: #fff9de;
 }
 
 a {
-	color:red;
-}
-
-/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
-
-/* EXAMPLE CODE PLEASE REMOVE */
-
-.nav{
-	width:100%;
-	height:100px;
-	background-color:white;
-	padding:10px;
-	padding-top:30px;
-	position:fixed;
-	top:0px;
-	left:0px;
-	position:right;
-}
-
-.nav-item{
-	background-color: snow;
-	display:inline-block;
-	padding:5px;
-	border-radius:5px;
-	text-decoration: none;
-	color:#000;
-}
-
-.main {
-	/*border: 2px solid white;*/
-	padding: 10px;
-	margin-top:50px;
-	width:100%;
-	position:relative;
-}
-
-.head{
-	font-family:helvetica;
-	font-size: 70px;
 	color:black;
-	padding-top:10px;
-	margin-left:1300px;
-	margin-bottom:50px;
-	margin-top: 50px;
-	position:fixed;
-	top:-50px;
-	right:40px;
+	text-decoration: none;
+
+}
+
+
+.bold{
+	font-weight: bold;
+}
+.header{
+	font-family:helvetica, arial;
+	font-weight: bold;
+	font-size:90px;
+	text-align: center;
+	padding:50px;
+	padding-top:;
+}
+
+.scroll1 {
+   
+  /*transform: rotate(-40deg);*/
+  background-color:black;
+  color:white;
+  position: fixed;
+  font-family:helvetica, arial;
+  width: 100%;
+  height: 50px;
+  margin-left:0px;
+  /*margin-left:-200px;*/
+  line-height: 50px;
+  text-align:left;
+  font-size:30px;
+  font-weight:bold;
+  overflow:hidden;
+  pointer-events:none;
+  flex-wrap:wrap;
+  display:flex;
+  z-index: 10;
+
+} 
+
+.subheader{
+	font:arial bold;
+	font-size:30px;
+	text-align: center;
+
+	 
+** make this scrolling text**
+
 
 
 }
 
-.aboutme{
-	/*border:red solid 4px;*/
+.country-title{
+	font-size:60px;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	margin-left:70px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px;
+}
+
+.thumbnail {
+	flex: 0 0 33.33%;
+}
+
+.thumbnail-content {
+	padding: 1px;
+	position: relative;
+}
+
+.thumbnail img {
 	width:100%;
-
-
 }
 
-.coverphoto{
-	position:relative;
-	width:100%;
-	height:400px;
-	/*border:blue 3px solid;*/
-	margin-top:80px;
-	align-items: center;
-
+.title{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	color:black;
 	
-	
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-family:helvetica, arial;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  
+
 }
 
-.text1{
-	margin-left:20px;
-	color:steelblue;
-	padding-top:80px;
-	font-size: 150px;
-}
+
 
 img{
-	width:90%;
-	height:100%;
-	object-fit: cover;
-	padding-left:80px;
-}
-
-}
-
-/*img{
-	
-	width:70%;
-	margin-left:500px;
-	top:100px;
-	image-orientation: 90deg flip;
-	padding-left:700px;
-	position:fixed;
-}
-
-.gifs{
-			width:1020px;
-			margin:auto;
-
-
-		}*/
-
-	
-/*DESIGN PAGE STARTS HERE*/
-
-.design-title{
-	font-family:helvetica;
-	font-size: 60px;
-	color: red;
-	padding-top:90px;
-	position:absolute;
-	text-align: center;
+ opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  
+  backface-visibility: hidden;
+  height: 350px;
+  object-fit: cover;
 
 
 }
 
-.designintro{
-	font-family:arial;
-	color:orange;
-	font-size: 50px;
-	text-align: center;
-	padding-top:50px;
-	
+.thumbnail:hover img {
+  opacity: 0;
 }
 
-.links{
-	font-family:arial;
-	color: black;
-	font-size: 50px;
-	text-align: left;
-	padding-top:50px;
-	margin-left:50px;
-	
+.thumbnail:hover .title {
+  opacity: 1;
+
 }
-
-
-
-
