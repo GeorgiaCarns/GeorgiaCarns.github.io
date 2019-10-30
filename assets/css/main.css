@@ -125,6 +125,10 @@ a {
 	width:100%;
 }
 
+.thumbnail-content .cristina{
+	border:1px red solid;
+}
+
 .title{
 	text-align: center;
 	font-size: 30px;
