@@ -43,7 +43,9 @@ a {
 }
 
 .subheader:hover{
-	text-decoration: underline;
+	color:red;
+	cursor:pointer;
+
 
 }
 
