@@ -33,4 +33,8 @@ $(document).ready(function(){
 		hideAll();
 		$('.skin').removeClass('hide');
 	});
+
+
+
+	var rellax = new Rellax('.rellax');
 });
