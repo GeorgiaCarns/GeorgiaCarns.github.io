@@ -6,16 +6,16 @@ body {
 }
 
 a {
-	color:red;
+	color:snow;
 }
 
 /*index homepage*/
 
 .index-intro{
-	font-size:40px;
-	margin-bottom:25vh;
+	font-size:60px;
 	text-align:center;
 	margin-top:50px;
+	padding-bottom:70px;
 }
 
 .index-row{
@@ -23,7 +23,7 @@ a {
 	flex-wrap:wrap;
 	padding:10px;
 	margin-bottom:5px;
-	margin-top:5px;
+	margin-top:0px;
 	border-top:2px solid white;
 
 }
@@ -31,6 +31,7 @@ a {
 .index-name{
 	flex:0 0 50%;
 	text-decoration: none;
+	padding-left:60px;
 }
 
 .index-layer{
@@ -130,7 +131,7 @@ a {
 
 .chip{
 	width:300px;
-	height:300px;
+	height:400px;
 	align-items:center;
 	justify-content: center;
 	display: flex;
@@ -241,35 +242,77 @@ img{
 }
 
 .employ-images{
-	width:30%;
-	flex:0 0 24%;
+	flex:0 0 10%;
 	margin-top:30px;
-	padding:10px;
+	padding:20px;
 	font-size: 20PX;
 	color:white;
 	text-align:center;
 	font-family:courier;
+	z-index:3;
+	display: block;
 
 }
 
 .employ-images img{
 	width:100%;
+	transition: 1s;
+  object-fit: cover;
+  height:100px;
+
 }
 
+.employ-images .male img{
+	width:200%;
+	height:300px;
+	transition: 2s;
+	box-shadow: 0 0 40px snow;
+}
+
+.employ-images .male img: hover{
+	width:500px;
+	transition: 1s;
+}
 
 /*tap myki*/
 
-.tap{
+.tap {
 	justify-content: center;
 	align-items: center;
 	width:100%;
-	position:fixed;
+	position:absolute;
+	margin-left:20px;
+	z-index: 2;
+}
 
+/*.tap img{
+	width:95%;
+	transition: 1s;
+	 object-fit: cover;
+	 height:auto;
+}
+*/
 
+.tap1 {
+	top:0px;
+	left:80px;
+	width:130%;
+	height: auto;
+	padding-left:100px;
+	margin-top:-600px;
+	margin-left:-200px;
 }
 
 
-
+.text{
+	position:absolute;
+	z-index: 4;
+}
+.text img{
+	width:100%;
+	display: block;
+	transform-style: 
+}
 
 
 
