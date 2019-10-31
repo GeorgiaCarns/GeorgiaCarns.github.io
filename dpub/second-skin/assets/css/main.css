@@ -29,7 +29,7 @@ a {
 	height:100%;
 	align-content: center;
 	right:0px;
-	padding-top:250px;
+	padding-top:230px;
 
 
 
@@ -40,7 +40,7 @@ a {
 	position:fixed;
 	width:100px;
 	height:auto;
-	top:0px;
+	top:-15px;
 	right:50px;
 	z-index: 10;
 }
@@ -49,7 +49,7 @@ a {
 	position:fixed;
 	width:100px;
 	height:auto;
-	top:420px;
+	top:500px;
 	right:50px;
 	z-index: 10;
 }
