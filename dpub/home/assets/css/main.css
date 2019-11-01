@@ -1,0 +1,74 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: peachpuff;
+}
+
+a {
+	color:darkgrey;
+	text-decoration: none;
+
+}
+
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
+/* EXAMPLE CODE PLEASE REMOVE */
+
+.header{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	/*border:1px solid blue;*/
+	height:50vh;
+	
+
+}
+
+.title{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color:snow;
+	padding-top:35vh;
+	font-family:verdana;
+	font-size: 80px;
+	/*border:1px solid red;*/
+	position:fixed;
+	
+
+}
+
+.subheader{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-top:50vh;
+	font-family:arial;
+	font-size: 30px;
+	color:snow;
+	position:fixed;
+	left:530px;
+	top:-30px;
+	letter-spacing: 5px;
+
+
+}
+
+.links a{
+	display: flex;
+	padding:5px;
+	justify-content: center;
+	margin-top:10px;
+
+	
+}
+
+.links a: hover{
+	color:black;
+	
+}
+
+
+
+
+
