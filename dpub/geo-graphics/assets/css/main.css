@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:#188bab;
+	background-color:black;
 	color:white;
 }
 
@@ -71,13 +71,13 @@ a {
 .checkers-black{
 	width:50vw;
 	height:50vh;
-	background-color:black;
+	background-color:red;
 }
 
 .checkers-white{
 	width:50vw;
 	height:50vh;
-	background-color: white;
+	background-color: yellow;
 }
 
 .Checkers-type{
@@ -315,11 +315,81 @@ img{
 }
 
 
+/*security questions*/
+
+.mainq{
+	color:white;
+	font-size:50px;
+	font-family:helvetica;
+	margin-top:20px;
+	margin-left:30px;
+}
+
+.questions{
+	font-family:courier;
+	font-size:30px;
+	justify-content: center;
+	align-content: center;
+	text-align: left;
+	color:snow;
+	margin-top:20px;
+	margin-left:20px;
+	border:snow 5px solid;
+	width:96%;
+}
+
+.q{
+	padding-top:40px;
+	padding:30px;
+	padding-bottom:40px;
+}
 
 
 
 
 
+
+.light-container{
+	width:17vw;
+	height:42vw;
+	display:flex;
+	margin-top:30px;
+	flex-wrap: wrap;
+	padding-top:10px;
+	justify-content:center;
+	border:1px red solid;
+	align-content: center;
+	border-radius: 30px;
+	margin-left:45%;
+	margin-top:100px;
+
+}
+
+.light{
+	width:10vw;
+	height:10vw;
+	border-radius:100%;
+	color:snow;
+	border:1px solid white;
+	text-align:center;
+	padding-top:2.5vw;
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:10px;
+	background-color: black;
+}
+
+.light.red:hover{
+	background-color: red;
+}
+
+.light.yellow:hover{
+	background-color: yellow;
+}
+
+.light.green:hover{
+	background-color: green;
+}
 
 
 
