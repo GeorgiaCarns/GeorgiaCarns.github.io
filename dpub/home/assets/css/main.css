@@ -42,13 +42,10 @@ a {
 	display: flex;
 	align-content: center;
 	justify-content: center;
-	padding-top:50vh;
+	padding-top:47vh;
 	font-family:arial;
 	font-size: 30px;
 	color:snow;
-	position:fixed;
-	left:530px;
-	top:-30px;
 	letter-spacing: 5px;
 
 
@@ -59,12 +56,14 @@ a {
 	padding:5px;
 	justify-content: center;
 	margin-top:10px;
+	color:grey;
 
 	
 }
 
-.links a: hover{
+.links a:hover{
 	color:black;
+	
 	
 }
 
